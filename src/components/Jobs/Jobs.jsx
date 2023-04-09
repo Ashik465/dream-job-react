@@ -1,7 +1,19 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Header from "../Header/Header";
+import Category from "../Category/Category";
 
 const Jobs = () => {
+
+   const [categories , setCategories] = useState([])
+
+   useEffect(()=>{
+      fetch('category.json')
+      .then(res=>res.json())
+      .then(data=>setCategories(data))
+
+   },[])
+
+  
   return (
     <div>
       <Header>
@@ -43,6 +55,19 @@ const Jobs = () => {
       
       <h1 className="mt-20 mb-4 text-5xl  text-center  font-bold text-[#1A1919]">Job Category List</h1>
       <p className="text-[#757575] text-xl pb-8 p-4 text-center"> Explore thousands of job opportunities with all the information you need. Its your future</p>
+
+
+      <div className="container mx-auto grid md:grid-cols-4 gap-5">
+
+    {categories.map(category=><Category category={category} key={category.name}></Category>)}
+      </div>
+
+      {/* Featured Jobs */}
+
+
+      <h1 className="mt-20 mb-4 text-5xl  text-center  font-bold text-[#1A1919]">Featured Jobs</h1>
+      <p className="text-[#757575] text-xl pb-8 p-4 text-center"> Explore thousands of job opportunities with all the information you need. Its your future</p>
+
 
       {/* endline */}
     </div>
