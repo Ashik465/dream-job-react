@@ -1,0 +1,24 @@
+ [
+      {
+        "logo": "https://i.postimg.cc/W33GYCwf/accounts.png",
+        "name": "Account & Finance",
+        "jobsAvailable": 750
+      },
+      {
+        "logo": "https://i.postimg.cc/VsXqGqqw/creative.png",
+        "name": "Creative Design",
+        "jobsAvailable": 400
+      },
+      {
+        "logo": "https://i.postimg.cc/595zqxJN/Marketing.png",
+        "name": "Marketing & Sales",
+        "jobsAvailable": 900
+      },
+      {
+        "logo": "https://i.postimg.cc/m2DrzR2n/engineering.png",
+        "name": "Engineering Job",
+        "jobsAvailable": 600
+      }
+    ]
+ 
+  
