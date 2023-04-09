@@ -39,7 +39,12 @@ const Jobs = () => {
           </div>
         </div>
       </Header>
-      <h1>hello from jobs</h1>
+      {/* job category list   */}
+      
+      <h1 className="mt-20 mb-4 text-5xl  text-center  font-bold text-[#1A1919]">Job Category List</h1>
+      <p className="text-[#757575] text-xl pb-8 p-4 text-center"> Explore thousands of job opportunities with all the information you need. Its your future</p>
+
+      {/* endline */}
     </div>
   );
 };
