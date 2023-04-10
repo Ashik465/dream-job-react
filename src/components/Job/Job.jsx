@@ -2,7 +2,7 @@ import React from "react";
 import { MapPinIcon, CurrencyDollarIcon } from "@heroicons/react/24/solid";
 
 const Job = ({ job }) => {
-  console.log(job);
+//   console.log(job);
 
   const {
     company_logo,
