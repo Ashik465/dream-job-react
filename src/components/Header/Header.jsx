@@ -30,8 +30,7 @@ const Header = ({children}) => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn normal-case bg-gradient-to-r from-[#7E90FE]
-    to-[#9873FF]  text-white font-bold border-none text-lg">Start Applying</a>
+    <a className="btn-main">Start Applying</a>
   </div>
 </div> 
 

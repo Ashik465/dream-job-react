@@ -2,11 +2,11 @@ import React from 'react';
 
 const Category = ({category}) => {
 
-    console.log(category)
+    // console.log(category)
 
     const {logo,name,jobsAvailable} = category
     return (
-        <div>
+        <>
             <div className='bg-gray-100 rounded-lg p-10 h-[90%]'>
              
                 <img className=' object-cover bg-gray-200 rounded-lg w-10 h-10 p-2 ' src={logo} alt="" />
@@ -16,7 +16,7 @@ const Category = ({category}) => {
 
                <p className='text-[#A3A3A3] '> {jobsAvailable} Jobs available </p>
             </div>
-        </div>
+        </>
     );
 };
 
