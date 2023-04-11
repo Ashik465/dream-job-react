@@ -22,20 +22,23 @@ const [cart, setCart] = useState([])
 const handleSortOnsite =() =>{
    
 
-    console.log('t', cartJob)
+    // console.log('t', cartJob)
 
 
-     const onsite =  cartJob.sort((a, b) => {
-    if (a.remote_or_onsite < b.remote_or_onsite) {
-      return -1;
-    }
-    if (a.remote_or_onsite > b.remote_or_onsite) {
-      return 1;
-    }
-    return 0;
-  });
+    const onsite = cartJob.filter(job=>job.remote_or_onsite ==='Onsite')
 
-  setCart(onsite)
+
+  //    const onsite =  cartJob.sort((a, b) => {
+  //   if (a.remote_or_onsite < b.remote_or_onsite) {
+  //     return -1;
+  //   }
+  //   if (a.remote_or_onsite > b.remote_or_onsite) {
+  //     return 1;
+  //   }
+  //   return 0;
+  // });
+const newon =[...onsite]
+  setCart(newon)
 
 }
 
@@ -44,16 +47,17 @@ const handleSortOnsite =() =>{
 const handleSortRemote =() =>{
 
 
+  const remote  = cartJob.filter(job=>job.remote_or_onsite ==='Remote')
 
-    const remote = cartJob.sort((a, b) => {
-        if (a.remote_or_onsite > b.remote_or_onsite) {
-          return -1;
-        }
-        if (a.remote_or_onsite < b.remote_or_onsite) {
-          return 1;
-        }
-        return 0;
-      });
+    // const remote = cartJob.sort((a, b) => {
+    //     if (a.remote_or_onsite > b.remote_or_onsite) {
+    //       return -1;
+    //     }
+    //     if (a.remote_or_onsite < b.remote_or_onsite) {
+    //       return 1;
+    //     }
+    //     return 0;
+    //   });
     
       const newCart = [ ...remote]
       setCart(newCart)
