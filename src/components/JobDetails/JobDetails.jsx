@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Header from "../Header/Header";
 import { CalendarIcon, CurrencyDollarIcon,MapPinIcon,PhoneIcon,EnvelopeIcon } from "@heroicons/react/24/solid";
+import { addToDb } from "../../utilities/fakedb";
 
 const JobDetails = () => {
   const dynamic = useParams();
@@ -23,10 +24,16 @@ const JobDetails = () => {
 //   console.log(jobData);
     // console.log(jobDetails.job_description);
 
-  const { job_description ,job_responsibility,educational_requirements , experiences,salary ,job_title,phone,email,location  } = jobDetails;
+  const { job_description ,job_responsibility,educational_requirements , experiences,salary ,job_title,phone,email,location ,id } = jobDetails;
 
 
+const handleAppliedJob =(id) =>{
 
+console.log(id)
+
+addToDb(id)
+
+}
 
 
 
@@ -97,7 +104,7 @@ const JobDetails = () => {
                     </div>
                 </div>
 
-                <button className="btn-main w-full mt-8"> Apply Now </button>
+                <button onClick={()=>handleAppliedJob(id)} className="btn-main w-full mt-8"> Apply Now </button>
                  
                </div>
 
