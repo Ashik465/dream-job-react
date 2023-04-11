@@ -14,10 +14,10 @@ const Statistics = () => {
               
               <Header>
 
-            <h1 className=" font-bold text-3xl my-32 pb-32 text-[#1A1919] text-center">Statistics Page </h1>
+            <h1 className=" font-bold text-3xl my-32 pb-5 text-[#1A1919] text-center">Statistics Page </h1>
             </Header>
    
-             <div className='text-center'><h1 className=" font-bold text-3xl  pb-32 pinky ">Area chart of Assignment Marks </h1></div>
+             <div className='text-center'><h1 className=" font-bold text-3xl  pb-10 pinky ">Area chart of Assignment Marks </h1></div>
             
 
 
