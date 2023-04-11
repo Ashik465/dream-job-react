@@ -10,6 +10,6 @@
 }
 
 .btn-main{
-  @apply btn normal-case bg-gradient-to-r from-[#7E90FE]
-  to-[#9873FF]  text-white font-bold border-none text-lg
+  @apply py-3 px-3 rounded-lg normal-case bg-gradient-to-r from-[#7E90FE]
+  to-[#9873FF]  text-white font-bold border-none text-lg 
 }
