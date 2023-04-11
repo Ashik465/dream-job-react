@@ -9,7 +9,7 @@ const Jobs = () => {
   const [categories, setCategories] = useState([]);
 
   useEffect(() => {
-    fetch("category.json")
+    fetch("/category.json")
       .then((res) => res.json())
       .then((data) => setCategories(data));
   }, []);
@@ -17,7 +17,7 @@ const Jobs = () => {
   const [showAll, setShowAll] = useState(false);
 
   useEffect(() => {
-    fetch("jobs.json")
+    fetch("/jobs.json")
       .then((res) => res.json())
       .then((data) => setJobs(data));
   }, []);
