@@ -17,13 +17,13 @@ const Applied = ({job}) => {
         const navigate =useNavigate()
     return (
         <>
-           <div className='bg-white shadow-2xl p-8 my-8 flex gap-8'>
+           <div className='bg-white shadow-2xl p-8 my-8 md:flex gap-8'>
             
             <div className='bg-[#F4F4F4] flex items-center p-8 rounded-lg  h-60 w-60 '>
             <img className=' object-cover' src={company_logo} alt="" />
             </div>
 
-               <div className='flex items-center flex-grow justify-between '>
+               <div className='md:flex items-center md:flex-grow justify-between '>
 
            {/* company_name */}    
            
@@ -55,7 +55,7 @@ const Applied = ({job}) => {
 {/* end  */}
                <div className=''>
                <button onClick={()=>navigate(`/job/${id}`)}
-        className="btn-main"
+        className="btn-main "
       >
         View  Details
       </button>
