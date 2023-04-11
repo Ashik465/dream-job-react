@@ -1,10 +1,12 @@
 import React from "react";
 import { MapPinIcon, CurrencyDollarIcon } from "@heroicons/react/24/solid";
+import { useNavigate } from "react-router-dom";
 
 const Job = ({ job }) => {
 //   console.log(job);
 
   const {
+    id,
     company_logo,
     job_title,
     company_name,
@@ -13,6 +15,8 @@ const Job = ({ job }) => {
     fulltime_or_part_time,
     salary,
   } = job;
+
+  const navigate =useNavigate()
   return (
     <div className="shadow-2xl p-10">
       <img className="mb-6" src={company_logo} alt="" />
@@ -36,11 +40,11 @@ const Job = ({ job }) => {
         <p>Salary: {salary}</p>
       </div>
 
-      <a
+      <button onClick={()=>navigate(`/job/${id}`)}
         className="btn-main"
       >
         View  Details
-      </a>
+      </button>
     </div>
   );
 };

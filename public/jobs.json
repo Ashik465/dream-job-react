@@ -12,10 +12,10 @@
         "job_responsibility": "Responsibilities include designing, developing, and testing software, as well as collaborating with cross-functional teams.",
         "educational_requirements": "Bachelor's or higher degree in Computer Science, Engineering or related field.",
         "experiences": "5+ years of experience in software engineering.",
-        "contact_information": {
+       
           "phone": "+1 555-555-5555",
           "email": "jobs@acmecorp.com"
-        }
+        
       },
 
       {
@@ -31,10 +31,10 @@
         "job_responsibility": "Responsibilities include defining and executing on the product road map, collaborating with cross-functional teams, and analyzing data to inform decisions.",
         "educational_requirements": "Bachelor's or higher degree in business, engineering, or related field.",
         "experiences": "5+ years of experience in product management or related field.",
-        "contact_information": {
+       
           "phone": "+1 555-555-5555",
           "email": "jobs@xyzinc.com"
-        }
+        
       },
 
       {
@@ -50,10 +50,10 @@
         "job_responsibility": "Responsibilities include developing and executing on marketing strategies, managing campaigns, and collaborating with cross-functional teams.",
         "educational_requirements": "Bachelor's or higher degree in marketing, business, or related field.",
         "experiences": "5+ years of experience in marketing or related field.",
-        "contact_information": {
+        
           "phone": "+1 555-555-5555",
           "email": "jobs@abccorp.com"
-        }
+        
       },
 
       {
@@ -69,10 +69,10 @@
         "job_responsibility": "Responsibilities include assisting with marketing campaigns, managing social media accounts, and coordinating events.",
         "educational_requirements": "Bachelor's degree in marketing, communications, or related field.",
         "experiences": "1+ years of experience in marketing or related field.",
-        "contact_information": {
+        
           "phone": "+1 555-555-5555",
           "email": "jobs@abcmarketing.com"
-        }
+        
       },
 
 
@@ -89,10 +89,10 @@
         "job_responsibility": "Responsibilities include identifying and pursuing new sales opportunities, maintaining customer relationships, and achieving sales targets.",
         "educational_requirements": "Bachelor's degree in business, marketing, or related field.",
         "experiences": "2+ years of experience in sales or related field.",
-        "contact_information": {
+       
           "phone": "+1 555-555-5555",
           "email": "jobs@xyzcorp.com"
-        }
+        
       },
 
 
@@ -109,10 +109,10 @@
         "job_responsibility": "Responsibilities include designing and developing website and web applications, testing and debugging code, and collaborating with cross-functional teams.",
         "educational_requirements": "Bachelor's degree in computer science, engineering, or related field.",
         "experiences": "3+ years of experience in web development or related field.",
-        "contact_information": {
+        
           "phone": "+1 555-555-5555",
           "email": "jobs@webco.com"
-        }
+        
       }
 
 ]
