@@ -4,6 +4,7 @@ import Category from "../Category/Category";
 import { useLoaderData } from "react-router-dom";
 import Job from "../Job/Job";
 import { data } from "autoprefixer";
+import Ashik from '../../Images/Ashik.png'
 
 const Jobs = () => {
   const [categories, setCategories] = useState([]);
@@ -51,7 +52,7 @@ const Jobs = () => {
           </div>
 
           <div>
-            <img className=" w-full" src="/public/Ashik.png" alt="" />
+            <img className=" w-full" src={Ashik} alt="" />
           </div>
         </div>
       </Header>
